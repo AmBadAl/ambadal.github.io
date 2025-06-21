@@ -47,15 +47,15 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Stanford Graduate School of Business, Stanford, CA",
+      "location": "Stanford, CA",
+      "url": "http://gsb.stanford.edu/",
+      "area": "Economics",
+      "studyType": "Predoctoral Research Fellow (Non-matriculated)",
+      "startDate": "2024-09-01",
+      "endDate": "2025-06-30",
+      "courses": ["Econ 170, 171, 172: Econometrics I, II, III (PhD level)"] 
+      // "score": "10",
     }
   ],
   "awards": [
