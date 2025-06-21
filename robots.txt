@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://amirrezabagheridelouee.github.io/sitemap.xml
+Sitemap: https://ambadal.github.io/sitemap.xml
