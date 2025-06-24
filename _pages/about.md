@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://www.gsb.stanford.edu/programs/research-fellows/community/fellows'>Predoctoral Research Fellow</a>
 
