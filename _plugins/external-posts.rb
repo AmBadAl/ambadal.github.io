@@ -2,6 +2,7 @@ require 'feedjira'
 require 'httparty'
 require 'jekyll'
 require 'nokogiri'
+require "open-uri"
 require 'time'
 
 module ExternalPosts
@@ -23,7 +24,15 @@ module ExternalPosts
     end
 
     def fetch_from_rss(site, src)
-      xml = HTTParty.get(src['rss_url']).body
+      xml = URI.open(
+          src['rss_url'],
+          "User-Agent" => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
+        ).read
+
+      # puts "=== FIRST 300 CHARACTERS ==="
+      # puts xml[0..300]
+
+      # xml = HTTParty.get(src['rss_url']).body
       return if xml.nil?
       feed = Feedjira.parse(xml)
       process_entries(site, src, feed.entries)
