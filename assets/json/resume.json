@@ -65,7 +65,9 @@
       "startDate": "2024-09-01",
       "endDate": "2025-06-30",
       "score": "3.9",
-      "courses": ["ECON 202N: Microeconomics I (PhD), EE364A: Convex Optimization I (Graduate), ECON 270-272: Intermediate Econometrics I, II, III (PhD)"] 
+      "courses": [
+        "ECON 202N: Microeconomics I (PhD), EE364A: Convex Optimization I (Graduate), ECON 270-272: Intermediate Econometrics I, II, III (PhD)"
+      ]
     },
     {
       "institution": "Sharif University of Technology, Tehran, Iran",
@@ -76,19 +78,16 @@
       "startDate": "2019-09-01",
       "endDate": "2024-06-30",
       "score": "18.4",
-      "courses": ["Calculus I-II, Linear Algebra, Differential Equations, Probability and Statistics, Numerical Computation, Advanced Programming, Data Structures and Algorithms, Design of Algorithms, Game Theory, Advanced Information Retrieval, Machine Learning (Graduate), Social and Economic Networks (Graduate), Microeconomics, Macroeconomics, Econometrics, Industrial Organization, Public Economics, Neuroeconomics (Graduate), Finance coursework: Financial Economics, Financial Machine Learning (Graduate), Financial Engineering (Graduate)"]
+      "courses": [
+        "Calculus I-II, Linear Algebra, Differential Equations, Probability and Statistics, Numerical Computation, Advanced Programming, Data Structures and Algorithms, Design of Algorithms, Game Theory, Advanced Information Retrieval, Machine Learning (Graduate), Social and Economic Networks (Graduate), Microeconomics, Macroeconomics, Econometrics, Industrial Organization, Public Economics, Neuroeconomics (Graduate), Finance coursework: Financial Economics, Financial Machine Learning (Graduate), Financial Engineering (Graduate)"
+      ]
     }
   ],
   "interests": [
     {
       "name": "Economics",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Market Design",
-        "Industrial Organization",
-        "Applied Microeconomics",
-        "Urban Economics"
-      ]
+      "keywords": ["Market Design", "Industrial Organization", "Applied Microeconomics", "Urban Economics"]
     }
   ],
   "awards": [
@@ -131,7 +130,7 @@
       "startDate": "2022-02-01",
       "endDate": "2022-07-01",
       "url": "https://github.com/AmBadAl/Econometrics-Project"
-    }, 
+    },
     {
       "name": "Macroeconomics Research Project: The Role of Macroeconomic Factors in Growth",
       "summary": "Studied the impact of inflation and budget deficit on the productivity rate and the economic growth in Iran",
@@ -179,34 +178,17 @@
       "name": "Programming Languages",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Python",
-        "Julia",
-        "R",
-        "C/C++",
-        "Java"
-      ]
+      "keywords": ["Python", "Julia", "R", "C/C++", "Java"]
     },
     {
       "name": "Libraries",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "TensorFlow",
-        "PyTorch",
-        "Keras",
-        "Scikit-learn",
-        "Pandas"
-      ]
+      "keywords": ["TensorFlow", "PyTorch", "Keras", "Scikit-learn", "Pandas"]
     },
     {
       "name": "Technologies",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Git",
-        "LaTeX",
-        "Slurm Scheduler",
-        "SQL Databases"
-      ]
+      "keywords": ["Git", "LaTeX", "Slurm Scheduler", "SQL Databases"]
     }
   ],
   "languages": [
