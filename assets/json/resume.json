@@ -1,11 +1,11 @@
 {
   "basics": {
-    "name": "Amirreza Bagheridelouee",
+    "name": "Amir Bagheri",
     "label": "Research Fellow",
     "image": "",
     "email": "bagheri@stanford.edu",
     "url": "https://ambadal.github.io/",
-    "summary": "Predoctoral Research Fellow at Stanford Graduate School of Business, in the field of Economics",
+    "summary": "Research Fellow at Stanford Graduate School of Business, in the field of Economics",
     "location": {
       "address": "655 Knight Way",
       "postalCode": "CA 94305",
@@ -24,7 +24,7 @@
   "work": [
     {
       "name": "Stanford Graduate School of Business",
-      "position": "Predoctoral Research Fellow",
+      "position": "Research Fellow",
       "url": "https://www.gsb.stanford.edu/",
       "startDate": "2024-09-01",
       "endDate": "2026-06-30",
@@ -66,7 +66,7 @@
       "endDate": "2025-06-30",
       "score": "3.9",
       "courses": [
-        "ECON 202N: Microeconomics I (PhD), EE364A: Convex Optimization I (Graduate), ECON 270-272: Intermediate Econometrics I, II, III (PhD)"
+        "(MS&E 233): Game Theory, Data Science & AI (Graduate), (CS 234): Reinforcement Learning (Graduate), (EE364A): Convex Optimization I (Graduate), (MGTECON 600): Microeconomics I (PhD), (ECON 270-272): Intermediate Econometrics I, II, III (PhD)"
       ]
     },
     {
@@ -87,7 +87,7 @@
     {
       "name": "Economics",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Market Design", "Industrial Organization", "Applied Microeconomics", "Urban Economics"]
+      "keywords": ["Industrial Organization", "Market Design", "Applied Microeconomics"]
     }
   ],
   "awards": [
@@ -199,7 +199,17 @@
     },
     {
       "language": "English",
-      "fluency": "Full Professional",
+      "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Arabic",
+      "fluency": "Elementary",
+      "icon": ""
+    },
+    {
+      "language": "French",
+      "fluency": "Elementary",
       "icon": ""
     }
   ],
@@ -209,6 +219,27 @@
       "date": "",
       "issuer": "Duke University",
       "url": "https://www.coursera.org/account/accomplishments/specialization/GMBF8CZDH7DL",
+      "icon": ""
+    },
+    {
+      "name": "Introduction to Marketing",
+      "date": "",
+      "issuer": "University of Pennsylvania",
+      "url": "https://www.coursera.org/account/accomplishments/verify/U9JQUNSA5GAE",
+      "icon": ""
+    },
+    {
+      "name": "Fundamentals of Machine Learning in Finance",
+      "date": "",
+      "issuer": "New York University (NYU)",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/H99F4C8AEA9G",
+      "icon": ""
+    },
+    {
+      "name": "Introduction to Financial Engineering and Risk Management",
+      "date": "",
+      "issuer": "Columbia University",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/QLBUD9S4YKLD",
       "icon": ""
     },
     {

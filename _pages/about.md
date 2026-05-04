@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.gsb.stanford.edu/programs/research-fellows/community/fellows'>Predoctoral Research Fellow</a>
+subtitle: <a href='https://www.gsb.stanford.edu/programs/research-fellows/community/fellows'>Research Fellow</a>
 
 profile:
   align: right
@@ -27,9 +27,9 @@ social: true # includes social icons at the bottom of the page
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! My name is Amirreza (Amir) and I'm currently a predoctoral research fellow in the field of Economics at Stanford Graduate School of Business, CA. Prior to this, I was studying Computer Engineering (and minors in Economics) at Sharif University of Technology, Tehran, Iran.
+Hi! My name is Amirreza (Amir) and I'm currently a research fellow in the field of Economics at Stanford Graduate School of Business, CA. Prior to this, I was studying Computer Engineering (and minors in Economics) at Sharif University of Technology, Tehran, Iran.
 
-My primary research interestes lie in Industrial Organization, Empirical Market Design, and Finance. I'm interested in applying computer science tools (Machine Learning, Game Theory, Social Networks) to model economic problems and study how the recent technological advancements (AI and Automation Tools, Blockchain and DeFi) can/will shape different markets, especially within the urban and financial settings.
+My primary research interests lie in Industrial Organization, Empirical Market Design, and Finance. I'm interested in applying computer science tools (Machine Learning, Game Theory, Social Networks) to model economic and financial problems and study how the recent technological advancements (AI and Automation Tools, Blockchain and DeFi) can/will shape different markets, especially within the financial and urban settings.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
