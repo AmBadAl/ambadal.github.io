@@ -80,9 +80,7 @@
       "studyType": "Predoctoral Research Fellow (Non-matriculated Student)",
       "startDate": "2024-09-01",
       "endDate": "2026-06-30",
-      "courses": [
-        "Microeconomic Analysis I; Econometrics I-III; Game Theory, Data Science & AI; Reinforcement Learning; Convex Optimization I"
-      ]
+      "courses": ["Microeconomic Analysis I; Econometrics I-III; Game Theory, Data Science & AI; Reinforcement Learning; Convex Optimization I"]
     },
     {
       "institution": "Sharif University of Technology",
