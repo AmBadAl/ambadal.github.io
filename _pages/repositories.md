@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: Project
+title: Projects
 description: Selected research and software projects.
 nav: true
 nav_order: 4
