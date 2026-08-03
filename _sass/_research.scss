@@ -1,0 +1,151 @@
+.research-page {
+  --research-radius: 0.75rem;
+}
+
+.research-introduction {
+  border-bottom: 1px solid var(--global-divider-color);
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+
+  p {
+    font-size: 1.08rem;
+    line-height: 1.75;
+    margin: 0;
+    max-width: 46rem;
+  }
+}
+
+.research-eyebrow {
+  color: var(--global-theme-color);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  margin: 0 0 0.3rem;
+  text-transform: uppercase;
+}
+
+.research-section-title {
+  font-size: 1.55rem;
+  margin: 0 0 1rem;
+}
+
+.research-publications {
+  > h2:not(.research-section-title) {
+    display: none;
+  }
+
+  .bibliography {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    > li {
+      background: var(--global-card-bg-color);
+      border: 1px solid var(--global-divider-color);
+      border-radius: var(--research-radius);
+      margin-bottom: 0;
+      padding: 1.75rem;
+    }
+
+    .row {
+      margin: 0;
+    }
+
+    .abbr {
+      padding: 0 1.25rem 0 0;
+
+      abbr {
+        background: color-mix(in srgb, var(--global-theme-color) 12%, transparent);
+        color: var(--global-theme-color);
+        letter-spacing: 0.04em;
+        padding: 0.45rem 0.55rem;
+      }
+    }
+
+    .title {
+      color: var(--global-theme-color);
+      font-size: 1.35rem;
+      font-weight: 500;
+      line-height: 1.35;
+      margin-bottom: 0.55rem;
+    }
+
+    .author,
+    .periodical {
+      font-size: 0.92rem;
+      line-height: 1.55;
+    }
+
+    .periodical {
+      color: var(--global-text-color-light);
+      margin-top: 0.25rem;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      margin-top: 1rem;
+
+      a.abstract {
+        display: none;
+      }
+
+      a.btn {
+        border: 1px solid var(--global-theme-color);
+        border-radius: 999px;
+        margin: 0;
+        padding: 0.35rem 0.7rem;
+
+        &:hover {
+          background: var(--global-theme-color);
+          color: var(--global-hover-text-color);
+        }
+      }
+    }
+
+    div.abstract.hidden {
+      border: 0;
+      border-top: 1px solid var(--global-divider-color);
+      font-size: 0.92rem;
+      margin-top: 1.35rem;
+      max-height: none;
+      overflow: visible;
+      padding-top: 1.25rem;
+      text-align: left;
+
+      &::before {
+        content: "Abstract";
+        display: block;
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        margin-bottom: 0.55rem;
+        text-transform: uppercase;
+      }
+
+      p {
+        color: var(--global-text-color-light);
+        line-height: 1.7;
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .research-publications .bibliography {
+    > li {
+      padding: 1.25rem;
+    }
+
+    .abbr {
+      margin-bottom: 0.9rem;
+      padding: 0;
+
+      abbr {
+        width: auto !important;
+      }
+    }
+  }
+}
