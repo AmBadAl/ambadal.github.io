@@ -1,52 +1,74 @@
 username: AmBadAl
-public_repositories: 17
-refactored_projects: 3
 
-highlights:
-  - title: Research translated into software
-    icon: fa-solid fa-flask
-    description: Projects connect economic questions with NLP, machine learning, and computational modeling.
-  - title: Reproducible project design
-    icon: fa-solid fa-rotate
-    description: Recent refactors add clear documentation, synthetic examples, automated tests, and repeatable workflows.
-  - title: Breadth across technical stacks
-    icon: fa-solid fa-code-branch
-    description: Public work spans Python, Julia, R, Java, Jupyter notebooks, LaTeX, and web development.
-
-featured_repositories:
+projects:
   - name: financial-text-modeling-julia
     title: Financial Text Modeling in Julia
+    category: Natural language processing
     language: Julia
     language_slug: julia
-    description: Dependency-light implementations of sentiment analysis, classification, topic modeling, word embeddings, and SEC-document preprocessing.
+    summary: An educational model suite that makes the core algorithms behind financial NLP explicit and inspectable.
+    explanation: This project reimplements a university exploration of financial-text analysis as a dependency-light Julia package. It covers the path from raw documents to sentiment scores, classifiers, topics, and word embeddings, while using a synthetic corpus so the examples can run without private data or API credentials.
+    highlights:
+      - Sentiment analysis and multinomial Naive Bayes classification
+      - TF–IDF, latent semantic analysis, NMF, and latent Dirichlet allocation
+      - Native Word2Vec, embedding evaluation, and SEC filing preprocessing
+      - Reproducible examples plus unit and integration tests
     topics:
       - Financial NLP
-      - Julia
-      - Automated tests
+      - Topic modeling
+      - Word embeddings
+      - Reproducibility
+
   - name: crash-course-content-analysis
     title: Crash Course Content Analysis
+    category: Computational social science
     language: Python
     language_slug: python
-    description: A reproducible NLP pipeline for corpus statistics, part-of-speech analysis, and keyphrase extraction across educational-video transcripts.
+    summary: A reproducible analysis of how language and subject matter vary across educational-video transcripts.
+    explanation: The project turns a collection of Crash Course transcripts into a structured corpus and applies a consistent NLP workflow across series. It is designed to make comparisons interpretable rather than treating the transcripts as an opaque prediction dataset.
+    highlights:
+      - Corpus cleaning and descriptive text statistics
+      - Part-of-speech patterns and vocabulary comparisons
+      - Keyphrase extraction across subjects and series
+      - Repeatable analysis from source text to reported results
     topics:
       - NLP
-      - Text analysis
-      - Reproducible research
+      - Content analysis
+      - Educational media
+      - Text mining
+
   - name: online-food-delivery-simulation
     title: Online Food Delivery Simulation
+    category: Operations and simulation
     language: Python
     language_slug: python
-    description: A discrete-event simulation of priority queues, service capacity, timeouts, and platform utilization.
+    summary: A discrete-event model of order flow, service capacity, priority queues, and customer timeouts.
+    explanation: This project studies an online delivery system as a queueing problem. Orders move through a capacity-constrained service process, while priority rules and abandonment behavior shape waiting times, utilization, and the number of successfully completed orders.
+    highlights:
+      - Configurable arrival and service processes
+      - Priority-based queueing and customer abandonment
+      - Scenario comparisons for capacity and operating policies
+      - Synthetic examples that run without the original project data
     topics:
-      - Simulation
+      - Discrete-event simulation
       - Queueing
+      - Operations
       - Scenario analysis
+
   - name: Neuroeconomics-Essay
     title: Narratives and Herding
+    category: Neuroeconomics
     language: Jupyter
     language_slug: jupyter
-    description: A neuroeconomics essay proposing a testable link between narrative processing and herding behavior.
+    summary: A research project connecting narrative processing with herding behavior in economic decisions.
+    explanation: The project develops the idea that shared narratives can coordinate beliefs and decisions, helping explain why groups sometimes move together even when private information differs. It brings evidence from neuroscience and behavioral economics into a framework that can generate testable hypotheses.
+    highlights:
+      - Literature synthesis across narrative economics and neuroscience
+      - A proposed mechanism linking stories, attention, and coordinated choice
+      - Testable implications for herding behavior
+      - Supporting computational analysis in a documented notebook
     topics:
       - Neuroeconomics
       - Narrative economics
+      - Herding
       - Research essay
