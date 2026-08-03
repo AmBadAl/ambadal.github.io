@@ -1,14 +1,52 @@
-github_users:
-  - AmBadAl
+username: AmBadAl
+public_repositories: 17
+refactored_projects: 3
 
-repo_description_lines_max: 2
+highlights:
+  - title: Research translated into software
+    icon: fa-solid fa-flask
+    description: Projects connect economic questions with NLP, machine learning, and computational modeling.
+  - title: Reproducible project design
+    icon: fa-solid fa-rotate
+    description: Recent refactors add clear documentation, synthetic examples, automated tests, and repeatable workflows.
+  - title: Breadth across technical stacks
+    icon: fa-solid fa-code-branch
+    description: Public work spans Python, Julia, R, Java, Jupyter notebooks, LaTeX, and web development.
 
-github_repos:
-  - AmBadAl/Neuroeconomics-Essay
-  - AmBadAl/Financial-NLP-Models
-  - AmBadAl/crash_course_content_analysis
-  - sudoparsa/information-retrieval
-  - AmBadAl/Diabetes
-  - AmBadAl/Compiler-spring2024
-  - AmBadAl/Computer-Simulation-Project
-  - AdvProg2020/Project_team-30
+featured_repositories:
+  - name: financial-text-modeling-julia
+    title: Financial Text Modeling in Julia
+    language: Julia
+    language_slug: julia
+    description: Dependency-light implementations of sentiment analysis, classification, topic modeling, word embeddings, and SEC-document preprocessing.
+    topics:
+      - Financial NLP
+      - Julia
+      - Automated tests
+  - name: crash-course-content-analysis
+    title: Crash Course Content Analysis
+    language: Python
+    language_slug: python
+    description: A reproducible NLP pipeline for corpus statistics, part-of-speech analysis, and keyphrase extraction across educational-video transcripts.
+    topics:
+      - NLP
+      - Text analysis
+      - Reproducible research
+  - name: online-food-delivery-simulation
+    title: Online Food Delivery Simulation
+    language: Python
+    language_slug: python
+    description: A discrete-event simulation of priority queues, service capacity, timeouts, and platform utilization.
+    topics:
+      - Simulation
+      - Queueing
+      - Scenario analysis
+  - name: Neuroeconomics-Essay
+    title: Narratives and Herding
+    language: Jupyter
+    language_slug: jupyter
+    description: A neuroeconomics essay proposing a testable link between narrative processing and herding behavior.
+    topics:
+      - Neuroeconomics
+      - Narrative economics
+      - Research essay
