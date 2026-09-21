@@ -267,37 +267,15 @@
   "skills": [
     {
       "name": "Programming",
-      "keywords": [
-        "Python",
-        "Julia",
-        "R",
-        "C/C++",
-        "Java",
-        "Stata"
-      ]
+      "keywords": ["Python", "Julia", "R", "C/C++", "Java", "Stata"]
     },
     {
       "name": "Data and machine learning",
-      "keywords": [
-        "pandas",
-        "NumPy",
-        "scikit-learn",
-        "statsmodels",
-        "TensorFlow",
-        "PyTorch",
-        "GeoPandas"
-      ]
+      "keywords": ["pandas", "NumPy", "scikit-learn", "statsmodels", "TensorFlow", "PyTorch", "GeoPandas"]
     },
     {
       "name": "Tools",
-      "keywords": [
-        "Git",
-        "LaTeX",
-        "Slurm",
-        "SQL",
-        "Redivis",
-        "Google Cloud APIs"
-      ]
+      "keywords": ["Git", "LaTeX", "Slurm", "SQL", "Redivis", "Google Cloud APIs"]
     }
   ],
   "languages": [
