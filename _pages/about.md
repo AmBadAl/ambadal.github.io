@@ -27,6 +27,8 @@ social: true # includes social icons at the bottom of the page
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! My name is Amir, and I am a researcher at The Wharton School of the University of Pennsylvania. Previously, I was a Predoctoral Research Fellow at Stanford Graduate School of Business. I hold a B.Sc. in Computer Engineering with a minor in Economics from Sharif University of Technology.
+I'm a researcher at the Marketing department of the Wharton School, with interests in industrial organization, and empirical market design. I combine training in computer engineering and economics with experience in empirical research, machine learning, and computational modeling.
 
-My primary research interests lie in Industrial Organization, Empirical Market Design, and Finance. I'm interested in applying computer science tools (Machine Learning, Game Theory, Social Networks) to model economic and financial problems and study how the recent technological advancements (AI and Automation Tools, Blockchain and DeFi) can/will shape different markets, especially within the financial and urban settings.
+Previously, I was a predoctoral research fellow at Stanford GSB, where I contributed to projects on digital-assets (FIFA NFTs) markets, transportation (congestion pricing), electricity markets, shipping, and generative AI. My work included building research datasets, developing algorithms, and conducting econometric analysis.
+
+I hold a B.Sc. in Computer Engineering with a minor in Economics from Sharif University of Technology. My thesis (coauthored research on public-spirited voting) appeared at AAMAS 2024.
