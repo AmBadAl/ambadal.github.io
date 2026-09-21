@@ -89,7 +89,16 @@ layout: default
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">
-              {% if data[0] == 'teaching' %}Teaching Experience{% else %}{{ data[0] | capitalize }}{% endif %}
+              {% case data[0] %}
+                {% when 'basics' %}
+                  Profile
+                {% when 'work' %}
+                  Research &amp; Professional Experience
+                {% when 'teaching' %}
+                  Teaching Experience
+                {% else %}
+                  {{ data[0] | capitalize }}
+              {% endcase %}
             </h3>
             <div>
               {% case data[0] %}
