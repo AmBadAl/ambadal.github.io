@@ -45,11 +45,11 @@
       "researchProjects": [
         {
           "name": "FIFA Ticketing",
-          "researchFocus": "Demand and trading activity in NFT-based ticketing markets.",
+          "researchFocus": "Demand and trading activity in FIFA NFT and ticketing markets.",
           "dates": "Sep 2025 – Jun 30, 2026",
           "highlights": [
             "Scraped and analyzed 1M+ observations from FIFA Collectibles, World Cup 2026 tickets, and Fifachain transactions.",
-            "Combined marketplace and blockchain data to study demand and trading activity in NFT-based ticketing markets."
+            "Combined marketplace and blockchain data to study demand and trading in FIFA NFT and ticketing markets."
           ],
           "supervisors": [
             {
@@ -64,14 +64,16 @@
           "dates": "Jul 2025 – Jun 30, 2026",
           "highlights": [
             "Built 1M+ Manhattan trip observations from Replica and Google Maps API to study congestion-pricing responses.",
-            "Combined routes, travel times, and pricing data to analyze how congestion charges affect carpooling decisions."
+            "Built a Manhattan car-count dataset from 25,000+ hours of unstructured video footage.",
+            "Reviewed research on how congestion pricing and parking fees affect carpooling."
           ],
           "supervisors": [
             {
               "name": "Prof. Michael Ostrovsky",
               "url": "https://web.stanford.edu/~ost/"
             }
-          ]
+          ],
+          "url": "https://www.nber.org/papers/w34261"
         },
         {
           "name": "Power Plants, Transmission Lines, and Data Centers",
@@ -180,7 +182,7 @@
       "startDate": "2019-09-01",
       "endDate": "2024-07-31",
       "courses": [
-        "Selected coursework: Linear Algebra; Numerical Computation; Artificial Intelligence; Game Theory; Machine Learning; Social and Economic Networks; Advanced Information Retrieval; Design of Algorithms; Financial Machine Learning; Financial Engineering."
+        "Selected coursework: Differential Equations; Linear Algebra; Numerical Computation; Artificial Intelligence; Game Theory; Machine Learning; Social and Economic Networks; Advanced Information Retrieval; Design of Algorithms; Financial Machine Learning; Financial Engineering; Theory of Languages and Automata; Computer Simulation."
       ],
       "transcript": "https://drive.google.com/file/d/1WJSjQwN7rH9XDqTEst-5WVKbvuHeijN_/view?usp=sharing",
       "thesis": {
@@ -206,7 +208,7 @@
       "publisher": "Proceedings of the 23rd International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2024)",
       "releaseDate": "2024",
       "url": "https://dl.acm.org/doi/10.5555/3635637.3663088",
-      "summary": "With Marzieh Nilipour, Masoud Seddighin, and Maziar Shamsipour."
+      "summary": "With Marzie Nilipour, Masoud Seddighin, and Maziar Shamsipour."
     }
   ],
   "projects": [
