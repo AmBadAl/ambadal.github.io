@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "Research",
-          description: "Published research in computational social choice and voting.",
+          description: "Publications and selected research experience in market design, industrial organization, and computational social choice.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
