@@ -34,10 +34,11 @@
         </div>
         <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4">
-            <a href="{{ content.url }}">{{ content.position }}</a>
+            {% if content.url %}<a href="{{ content.url }}">{{ content.position }}</a>{% else %}{{ content.position }}{% endif %}
           </h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.name }}</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.summary }}</h6>
+          {% if content.summary %}<p class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.summary }}</p>{% endif %}
+          {% if content.highlights.size > 0 %}
           <ul class="items">
             {% for item in content.highlights %}
               <li>
@@ -45,6 +46,25 @@
               </li>
             {% endfor %}
           </ul>
+          {% endif %}
+          {% if content.researchProjects %}
+            <div class="cv-research-projects ml-1 ml-md-4">
+              {% for project in content.researchProjects %}
+                <section class="cv-research-project">
+                  <h4>{{ project.name }}</h4>
+                  <p class="cv-project-dates">{{ project.dates }}</p>
+                  <ul>
+                    {% for highlight in project.highlights %}<li>{{ highlight }}</li>{% endfor %}
+                  </ul>
+                  <p class="cv-project-supervisors">
+                    {% if project.supervisors.size > 1 %}Supervisors:{% else %}Supervisor:{% endif %}
+                    {% for supervisor in project.supervisors %}<a href="{{ supervisor.url }}">{{ supervisor.name }}</a>{% unless forloop.last %} and {% endunless %}{% endfor %}.
+                    {% if project.url %}<a href="{{ project.url }}">Paper</a>{% endif %}
+                  </p>
+                </section>
+              {% endfor %}
+            </div>
+          {% endif %}
         </div>
       </div>
     </li>

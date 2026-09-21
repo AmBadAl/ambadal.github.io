@@ -2,6 +2,36 @@
  * CV shared styles
  *****************************/
 
+.cv-research-project {
+  padding: 1rem 0;
+  border-top: 1px solid var(--global-divider-color);
+
+  h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.35rem;
+  }
+
+  .cv-project-dates {
+    font-size: 0.85rem;
+    margin-bottom: 0.6rem;
+  }
+
+  ul {
+    padding-left: 1.2rem;
+    margin-bottom: 0.6rem;
+  }
+
+  li + li {
+    margin-top: 0.4rem;
+  }
+
+  .cv-project-supervisors {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+  }
+}
+
 div.container-link-button {
   margin-right: 0.5rem;
 }
